@@ -100,7 +100,7 @@ MrAdu3l 888 888  888  .Yups.  MrRa3s.   .S_ID99  .d88b.  MrRa3ss 888   888    88
                      
 """.format(settings.y,settings.r,settings.y,settings.r,settings.y,settings.r,settings.y,settings.r,settings.y,settings.r,settings.y))
 
-dorklist = input("[{}*{}] Dorklist : ".format(settings.r,settings.y))
+dorklist = raw_input("[{}*{}] Dorklist : ".format(settings.r,settings.y))
 
 try:
 	dorks = open(dorklist, 'r').read().splitlines()
